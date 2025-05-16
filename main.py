@@ -1,5 +1,6 @@
 import streamlit as st
 
+
 def tela_principal():
     st.title("Tabela de Contas")
     num_contas = st.number_input("Quantas contas (1-10)?", min_value=1, max_value=10, step=1)
